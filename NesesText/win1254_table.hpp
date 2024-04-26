@@ -2,7 +2,7 @@
 #include <tuple>
 
 
-
+// no endianness required
 //win1254 hex --  unicode code point hex -- utf8 hex 
 std::map<unsigned char, std::tuple<char16_t, char32_t>> win1254map
 {
